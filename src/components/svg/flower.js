@@ -1,6 +1,6 @@
 import React from "react";
 
-function Flower({ fill, className }) {
+export default ({ fill, className }) => {
   return (
     <svg
       className={className}
@@ -70,6 +70,4 @@ function Flower({ fill, className }) {
       </g>
     </svg>
   );
-}
-
-export default Flower;
+};
